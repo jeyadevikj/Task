@@ -1,0 +1,11 @@
+---
+version: "3"
+services:
+  frontend:
+    image: jeyadevi/task-frontend:latest
+    ports:
+      - 3000:3000
+  backend:
+    image: jeyadevi/task-backend
+    ports:
+      - 8082:8082
